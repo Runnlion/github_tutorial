@@ -15,13 +15,13 @@ rospy
 # message_generation
 # PCL
 # libpcl-conversions-dev
-moveit_core
-moveit_msgs
-moveit_planners_ompl
-moveit_visual_tools
-moveit_ros_move_group
-moveit_ros_planning_interface
-moveit_ros_visualization
+# moveit_core
+# moveit_msgs
+# moveit_planners_ompl
+# moveit_visual_tools
+# moveit_ros_move_group
+# moveit_ros_planning_interface
+# moveit_ros_visualization
 # visualization_msgs
 # tm_msgs
 )
