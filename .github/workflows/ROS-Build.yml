@@ -27,5 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Set Up ROS
-        run: ros-tooling/setup-ros@v3
+        uses: ros-tooling/setup-ros@v0.7
+      - run: vcs --help
 
