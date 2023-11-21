@@ -1,2 +1,1 @@
-new float data
-new Int data
+new Int64 Data
