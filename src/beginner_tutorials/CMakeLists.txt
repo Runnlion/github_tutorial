@@ -8,22 +8,22 @@ project(beginner_tutorials)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-pcl_conversions
+# pcl_conversions
 pcl_ros
 roscpp
 rospy
-message_generation
+# message_generation
 # PCL
 # libpcl-conversions-dev
-moveit_core
-moveit_msgs
-moveit_planners_ompl
-moveit_visual_tools
-moveit_ros_move_group
-moveit_ros_planning_interface
-moveit_ros_visualization
-visualization_msgs
-tm_msgs
+# moveit_core
+# moveit_msgs
+# moveit_planners_ompl
+# moveit_visual_tools
+# moveit_ros_move_group
+# moveit_ros_planning_interface
+# moveit_ros_visualization
+# visualization_msgs
+# tm_msgs
 )
 
 ## System dependencies are found with CMake's conventions
