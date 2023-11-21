@@ -12,7 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 # pcl_ros
 roscpp
 rospy
-# message_generation
+message_generation
 # PCL
 # libpcl-conversions-dev
 # moveit_core
@@ -119,6 +119,7 @@ catkin_package(
 #  LIBRARIES beginner_tutorials
 #  CATKIN_DEPENDS roscpp rospy std_msgs
 #  DEPENDS system_lib
+CATKIN_DEPENDS message_runtime roscpp rospy std_msgs sensor_msgs geometry_msgs
 )
 
 ###########
